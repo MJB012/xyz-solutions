@@ -1,0 +1,217 @@
+/**** Reset CSS ****/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+q:before,
+q:after {
+  content: '';
+}
+
+abbr,
+acronym {
+  border: 0;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+  font-family: "Montserrat";
+}
+
+
+/**** General CSS ****/
+h1 {
+  font-size: 54px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h6 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: "Montserrat";
+}
+
+img {
+    width: 100%;
+}
+
+a{
+    color: #FFFFFF;
+  }
+  
+  a:hover{
+    color: #FFFFFF;
+  }
+
+.btn-style-1 {
+    background: #333333;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: 1px solid #9a9999;
+  }
+
+/* Heaader Section */
+
+header {
+    text-align: center;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-image: url(../images/header.webp),  linear-gradient(rgb(255 255 255 / 0.1),rgb(255 255 255 / 0.1));
+}
+
+header .header-content {
+    color: white;
+    height: 500px;
+}
+
+/* Web and Application Development Section */
+
+.web-app {
+    background-color: #eaeaea;
+}
+
+/* Services Section Start */
+
+.services .services-card {
+    border: 0px;
+    width: auto !important;
+    border-radius: 0px;
+}
+
+.services .services-card img {
+    border-radius: 0px;
+}
+
+/* Contact and About Section */
+
+.contact-and-about {
+    --bs-gutter-x: 0rem;
+}
+.contact-us {
+    background-color: #2690d4;
+}
+
+.about-company {
+    background-color: #333333;
+}
+
+/* Footer section */
+
+footer {
+    background-color: #000000;
+}
+
+footer span {
+    color: #1f7bb7;
+}
+
+.footer {
+    --bs-gutter-x: 0rem;
+}
